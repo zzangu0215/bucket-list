@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function BucketForm(props) {
-  const [input, setInput] = useState(props.edit?.text || "");
+  const [input, setInput] = useState(props.edit?.value || "");
   const [eagerness, setEagerness] = useState(props.edit?.eagerness || "");
 
   const handleSubmit = (e) => {
@@ -40,9 +40,9 @@ function BucketForm(props) {
           </button>
           <div className="dropdown-content">
             {/* TODO: Add an onClick events that will set the corresponding eagerness level to "low", "medium", or "high" */}
-            <p onClick={() => {}}>Must do</p>
-            <p onClick={() => {}}>Want to do</p>
-            <p onClick={() => {}}>Take it or leave it</p>
+            <p onClick={() => setEagerness("high")}>Must do</p>
+            <p onClick={() => setEagerness("medium")}>Want to do</p>
+            <p onClick={() => setEagerness("low")}>Take it or leave it</p>
           </div>
         </div>
         <button className="bucket-button">Add bucket list item</button>
@@ -66,9 +66,9 @@ function BucketForm(props) {
           </button>
           <div className="dropdown-content">
             {/* TODO: Add an onClick events that will set the corresponding eagerness level to "low", "medium", or "high" */}
-            <p onClick={() => {}}>Must do</p>
-            <p onClick={() => {}}>Want to do</p>
-            <p onClick={() => {}}>Take it or leave it</p>
+            <p onClick={() => setEagerness("high")}>Must do</p>
+            <p onClick={() => setEagerness("medium")}>Want to do</p>
+            <p onClick={() => setEagerness("low")}>Take it or leave it</p>
           </div>
         </div>
         <button className="bucket-button">Update</button>
