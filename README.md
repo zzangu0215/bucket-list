@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Bucket List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deployed Link: https://zzangu0215.github.io/bucket-list/
 
-## Available Scripts
+In this mini-project, you are given starter code for a React Bucket List app. Some pieces of the application are not complete, and it is your mission to take what you have learned so far and complete the app.
 
-In the project directory, you can run:
+This project invites you to use most of the concepts you've learned in this unit. You will manage state using the `useState` Hook, pass data as props to child components, and use lists and keys to render a list of bucket-list items.
 
-### `npm start`
+## Activity
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Work with your group to resolve the following issues:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- As a user, I want to be able to able to enter a bucket-list item.
 
-### `npm test`
+- As a user, I want to be able to set the eagerness level of a bucket-list item.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- As a user, I want to see a list of all my bucket-list items after they are added, with colors that identify their eagerness level.
 
-### `npm run build`
+- As a user, I want to be able to edit and delete bucket-list items.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Acceptance Criteria
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- It's done when I write logic to add a bucket-list item in `components/BucketList.js`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- It's done when I write logic to mark a bucket-list item as complete or incomplete.
 
-### `npm run eject`
+- It's done when I write logic that will remove a bucket-list item from the list.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- It's done when I write logic to update a bucket-list item in `components/Bucket.js`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- It's done when I write logic to render a list of bucket-list items using `.map`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- It's done when each bucket-list item has a color that corresponds to the priority or "eagerness" to complete.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- It's done when each bucket-list item renders a button to edit and delete the item.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💡 Hints
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- How can we use string interpolation in `className` attributes to help change the color of the bucket-list items?
 
-### Code Splitting
+## 🏆 Bonus
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-### Analyzing the Bundle Size
+- Which React Hooks could we use in combination with local storage to make the bucket list persist after refreshes?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Use [Google](https://www.google.com) or another search engine to research this.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
